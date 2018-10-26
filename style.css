@@ -1,132 +1,84 @@
+*{
+  
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
 body{
-    border: 20px solid rgb(44, 120, 158);
+    background: rgb(0, 153, 204);
 
-   background: rgb(57, 153, 201);
+  border: 15px solid rgb(0, 204, 255);
 
-   color: rgba(255, 255, 255, 0.925);
-
+   color: white;
+   min-height: 100%;
 }
 section {
-    position: relative;
-    background-color: skyblue;
-    height: 480px;
-    border: 20px solid aquamarine;
-    padding: 50px;
-    width: inherit;
+    
+  width: 70%;
+   margin: 50px auto; 
 }
 
+
 .weat {
-    width: 50%;
-    position: absolute;
-    top: 5px;
-    left: 200px;
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .list {
-    width: 60%;
+    margin: 50px auto;
+ 
+   text-align: center;
     list-style: none;
-    text-align: center;
-    padding-top: 25px;
-    padding-left: 200px;
+    
+    
     font-size: 0;
 }
 
 .list li {
-    
-    box-sizing: border-box;
+   
+    line-height: 80px;
     border: 2px solid white;
-    font-size: 20px;
+   font-size: 25px;
     display: inline-block;
-    height: 100px;
-    opacity: 0.5;
+    
+   
 
 }
-
-.list .bbb {
+ .list .bbb {
      
-    width: 44%;
-    position: relative;
+    width: 50%;
+    
 }
 
 .list .ccc {
     
     
-    width: 22%;
-    position: relative;
+    width: 25%;
+    
 }
 
 .list .aaa {
-    width: 88%;
-    position: relative;
-}
+    width: 100%;
+  
+} 
 
-p {
-    position: absolute;
-    top: 300;
-    font-size: 25px;
-    left: 200px;
-}
 
-.list .temp {
-    padding-top: 30px;
-    position: absolute;
-    
-   
-}
 
-.list .wi {
-    padding-top: 31px;
-    position: absolute;
-}
-
-.bbb {
-
-    padding-top: 20px;
-    position: relative;
-}
-
-.bbb .temp {
-    left: 40%;
-}
-
-.bbb .wi {
-    left: 55%;
-}
-
-.aaa {
-    padding-top: 20px;
-    position: relative;
-}
-
-.aaa .temp {
-    left: 45%;
-}
-
-.aaa .wi {
-    left: 53%;
-}
-
-.ccc {
-    padding-top: 20px;
-    position: relative;
-}
-
-.ccc .temp {
-    left: 30%;
-}
-
-.ccc .wi {
-    left: 60%;
+.list:hover li{
+    opacity: 0.3;
 }
 li:hover {
     border: 2px solid white;
     opacity: 1;
-    transition: opacity 1s ;
+    transition: opacity 0.3s ease-in ;
 }
+.list li:hover {
+    cursor: pointer;
+    opacity: 1;
+} 
 
 li:nth-child(1) {
-    background: #3399CC;
+    background: #003366;
 }
 
 
