@@ -7,45 +7,56 @@ html {
 }
 
 body {
+    margin: 0;
     background: rgb(0, 153, 204);
     border: 15px solid rgb(0, 204, 255);
     color: white;
     min-height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 section {
     width: 70%;
-    margin: 50px auto;
+    margin: 25px auto;
 }
 
 .weat {
+    padding-left: 4%;
     font-size: 25px;
 }
 
 .list {
-    margin: 50px auto;
+    margin: 10px auto;
     text-align: center;
     list-style: none;
     font-size: 0;
 }
 
+p {
+    margin: 0;
+    display: block;
+}
+
 .list li {
-    line-height: 80px;
+    line-height: 25px;
     border: 2px solid white;
     font-size: 25px;
     display: inline-block;
 }
 
-.list .bbb {
+.list .medium-tile {
     width: 50%;
+    padding: 30px;
 }
 
-.list .ccc {
+.list .small-tile {
     width: 25%;
+    padding: 30px;
 }
 
-.list .aaa {
+.list .big-tile {
     width: 100%;
+    padding: 30px;
 }
 
 .list:hover li {
